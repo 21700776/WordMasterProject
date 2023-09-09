@@ -1,0 +1,3 @@
+3|superintendent|관리자, 감독관
+1|electirc|전기의, 전기를 생산하는
+2|equipment|장비, 용품
