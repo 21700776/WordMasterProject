@@ -37,7 +37,6 @@ public class WordManager {
                 "8. 나가기\n" +
                 "*******************\n" +
                 "==> 원하는 메뉴는? ");
-
         return s.nextInt();
     }
     public void start() {
