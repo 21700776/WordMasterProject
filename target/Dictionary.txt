@@ -28,3 +28,4 @@
 1|trim|다듬다
 3|crouch|쪼그리고 앉다
 2|proclaim|공언하다,선포하다
+1| apple|사과

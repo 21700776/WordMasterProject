@@ -53,6 +53,12 @@ public class WordManager {
                 //list
                 wordCRUD.listAll();
             }
+            else if(menu == 2){
+                wordCRUD.searchLevel();
+            }
+            else if(menu == 3){
+                wordCRUD.searchWord();
+            }
             else if(menu == 5){
                 //update
                 wordCRUD.updateItem();
@@ -60,6 +66,9 @@ public class WordManager {
             else if(menu == 6){
                 //delete
                 wordCRUD.deleteItem();
+            }
+            else if(menu == 7){
+                wordCRUD.saveFile();
             }
         }
         System.out.print("\n프로그램 종료! 다음에 만나요~");

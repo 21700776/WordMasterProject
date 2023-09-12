@@ -56,4 +56,8 @@ public class Word {
     public void setMeaning(String meaning) {
         this.meaning = meaning;
     }
+
+    public String toFileString() {
+        return this.level + "|" + this.word + "|" + this.meaning;
+    }
 }
